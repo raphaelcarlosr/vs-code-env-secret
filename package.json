@@ -1,19 +1,19 @@
 {
-  "name": "env-secret",
-  "displayName": "env-secret",
-  "description": "Make your env files as secret in repository",
+  "name": "env-safe",
+  "displayName": "env-safe",
+  "description": "Make your env files safe in repository",
   "version": "0.0.1",
   "publisher": "raphaelcarlosr.dev",
   "engines": {
     "vscode": "^1.56.0"
   },
-  "homepage": "https://github.com/raphaelcarlosr/vscode-env-secret/blob/master/README.md",
+  "homepage": "https://github.com/raphaelcarlosr/vscode-safe-env/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/raphaelcarlosr/vscode-env-secret.git"
+    "url": "https://github.com/raphaelcarlosr/vscode-safe-env.git"
   },
   "bugs": {
-    "url": "https://github.com/raphaelcarlosr/vscode-env-secret/issues"
+    "url": "https://github.com/raphaelcarlosr/vscode-safe-env/issues"
   },
   "categories": [
     "Other"
@@ -21,51 +21,48 @@
   "keywords": [
     "secret",
     "env",
+    "env safe",
     "dotenv"
   ],
   "activationEvents": [
-    "onCommand:env-secret.helloWorld",
-    "onLanguage:env",
-    "onLanguage:secret"
+    "onCommand:env-safe.helloWorld",
+    "onLanguage:env-safe",
+    "onLanguage:env-safe-hash"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "env-secret.helloWorld",
+        "command": "env-safe.helloWorld",
         "title": "Hello World"
       }
     ],
     "languages": [
       {
-        "id": "secret-env",
+        "id": "env-safe",
         "aliases": [
-          "Secret Environment Variables",
+          "Safe Environment Variables",
           "dotenv"
         ],
         "extensions": [
-          ".env",
-          ".env.sample",
-          ".env.example"
+          ".env.safe"
         ],
         "configuration": "./language-configuration.json"
       },
       {
-        "id": "secret-env-hash",
+        "id": "env-safe-hash",
         "aliases": [
-          "Hash Secret Environment Variables",
+          "Safe Environment Variables Hash",
           "dotenv"
         ],
         "extensions": [
-          ".secret",
-          ".secret.sample",
-          ".secret.example"
+          ".env.safe.hash"
         ]
       }
     ],
     "grammars": [
       {
-        "language": "env",
+        "language": "env-safe",
         "scopeName": "source.env",
         "path": "./syntaxes/env.tmLanguage.json"
       }
