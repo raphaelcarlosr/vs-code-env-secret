@@ -1,9 +1,10 @@
 {
   "name": "env-safe",
   "displayName": "env-safe",
+  "icon": "images/undraw_security_o890.png",
   "description": "Make your env files safe in repository",
-  "version": "0.0.1",
-  "publisher": "raphaelcarlosr.dev",
+  "version": "1.0.0-beta",
+  "publisher": "raphaelcarlosr",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -16,7 +17,8 @@
     "url": "https://github.com/raphaelcarlosr/vscode-safe-env/issues"
   },
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Formatters"
   ],
   "keywords": [
     "secret",
@@ -55,8 +57,7 @@
           "dotenv"
         ],
         "extensions": [
-          ".env.safe",
-          ".env.*.safe"
+          ".env.safe"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -67,8 +68,7 @@
           "dotenv"
         ],
         "extensions": [
-          ".env.safe.hash",
-          ".env.*.safe.hash"
+          ".env.safe.hash"
         ],
         "configuration": "./language-configuration.json"
       }
