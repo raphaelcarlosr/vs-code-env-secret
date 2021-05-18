@@ -25,7 +25,9 @@
     "dotenv"
   ],
   "activationEvents": [
-    "onCommand:env-safe.helloWorld",
+    "onCommand:env-safe.deletePhrase",
+    "onCommand:env-safe.encrypt",
+    "onCommand:env-safe.decrypt",
     "onLanguage:env-safe",
     "onLanguage:env-safe-hash"
   ],
@@ -33,8 +35,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "env-safe.helloWorld",
-        "title": "Hello World"
+        "command": "env-safe.encrypt",
+        "title": "Encrypt safe file"
+      },
+      {
+        "command": "env-safe.decrypt",
+        "title": "Decrypt safe file"
+      },
+      {
+        "command": "env-safe.deletePhrase",
+        "title": "Delete stored secret of file"
       }
     ],
     "languages": [
@@ -45,7 +55,8 @@
           "dotenv"
         ],
         "extensions": [
-          ".env.safe"
+          ".env.safe",
+          ".env.*.safe"
         ],
         "configuration": "./language-configuration.json"
       },
@@ -56,8 +67,10 @@
           "dotenv"
         ],
         "extensions": [
-          ".env.safe.hash"
-        ]
+          ".env.safe.hash",
+          ".env.*.safe.hash"
+        ],
+        "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
