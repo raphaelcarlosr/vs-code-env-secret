@@ -2,7 +2,7 @@
 
 This is the README for your extension "env-safe". After writing up a brief description, we recommend including the following sections.
 
-[![Build](https://github.com/raphaelcarlosr/vs-code-env-safe/actions/workflows/build.yml/badge.svg)](https://github.com/raphaelcarlosr/vs-code-env-safe/actions/workflows/build.yml)
+[![Build](https://github.com/raphaelcarlosr/vscode-safe-env/actions/workflows/build.yml/badge.svg)](https://github.com/raphaelcarlosr/vscode-safe-env/actions/workflows/build.yml)
 
 ## Features
 
