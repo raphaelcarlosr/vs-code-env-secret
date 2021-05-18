@@ -2,11 +2,19 @@
 
 > [raphaelcarlosr.dev](https://raphaelcarlosr.dev)
 
+[![GitHub issues](https://img.shields.io/github/issues/raphaelcarlosr/vscode-safe-env)](https://github.com/raphaelcarlosr/vscode-safe-env/issues?logo=visual-studio-code)
+[![GitHub license](https://img.shields.io/github/license/raphaelcarlosr/vscode-safe-env)](https://github.com/raphaelcarlosr/vscode-safe-env/blob/main/LICENSE)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/raphaelcarlosr/vscode-safe-env/main?logo=github)
+[![GitHub stars](https://img.shields.io/github/stars/raphaelcarlosr/vscode-safe-env)](https://github.com/raphaelcarlosr/vscode-safe-env/stargazers)
+![GitHub Release Date](https://img.shields.io/github/release-date/raphaelcarlosr/vscode-safe-env?logo=github)
 ![GitHub build](https://github.com/raphaelcarlosr/vscode-safe-env/workflows/Build/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/raphaelcarlosr/vscode-safe-env?logo=github)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/raphaelcarlosr/vscode-safe-env)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/raphaelcarlosr.vscode-env?label=VS%20Marketplace&logo=visual-studio-code)
-![GitHub](https://img.shields.io/github/license/raphaelcarlosr/vscode-safe-env)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/raphaelcarlosr/vscode-safe-env?logo=github)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/raphaelcarlosr.env-safe?label=installs&logo=visual-studio-code)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/raphaelcarlosr.env-safe?label=downloads&logo=visual-studio-code)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/raphaelcarlosr.env-safe?label=version&logo=visual-studio-code)
+![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/raphaelcarlosr.env-safe?label=rating&logo=visual-studio-code)
+![GitHub](https://img.shields.io/github/license/raphaelcarlosr/vscode-safe-env?logo=github)
 
  ![Syntax highlighting](images/ezgif.com-gif-maker.gif)
 

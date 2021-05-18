@@ -1,9 +1,9 @@
 {
   "name": "env-safe",
-  "displayName": "env-safe",
+  "displayName": "Environment files as secrets",
   "icon": "images/undraw_security_o890.png",
   "description": "Make your env files safe in repository",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "publisher": "raphaelcarlosr",
   "engines": {
     "vscode": "^1.56.0"
